@@ -9,13 +9,13 @@ const otpEmail = async (data) => {
       secure: true,
       service: "gmail",
       auth: {
-        user: "kenilmangroliya18@gmail.com",
-        pass: "vyyxrbisvczzgyvb",
+        user: "yogeshmakare95@gmail.com",
+        pass: "dovuyzkptapvmlfr",
       },
     });
 
     const mailOptions = {
-      from: "<kenilmangroliya18@gmail.com>",
+      from: "<yogeshmakare95@gmail.com>",
       to: data.email,
       subject: "Welcome!",
       template: "email", // the name of the template file i.e email.handlebars
